@@ -16,4 +16,8 @@ public class Person {
     public Address getAddress() {
         return address;
     }
+
+    public void print() {
+        System.out.println(name + " " + address.getStreetName());
+    }
 }

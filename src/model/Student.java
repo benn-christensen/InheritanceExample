@@ -13,4 +13,9 @@ public class Student extends Person {
     public double getGradeAverage() {
         return gradeAverage;
     }
+
+    public void print() {
+        super.print();
+        System.out.println("gradeAverage = " + gradeAverage);
+    }
 }
