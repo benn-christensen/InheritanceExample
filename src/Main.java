@@ -13,6 +13,7 @@ public class Main {
         people[1] = hanne;
         for (Person person : people) {
             person.print();
+            System.out.println();
         }
     }
 }

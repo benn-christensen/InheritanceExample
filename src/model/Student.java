@@ -14,8 +14,14 @@ public class Student extends Person {
         return gradeAverage;
     }
 
+    @Override
     public void print() {
         super.print();
         System.out.println("gradeAverage = " + gradeAverage);
+    }
+
+    @Override
+    public String toString() {
+        return " ";
     }
 }
