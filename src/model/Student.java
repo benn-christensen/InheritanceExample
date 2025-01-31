@@ -4,6 +4,7 @@ import model.Person;
 
 public class Student extends Person {
     private double gradeAverage;
+    private int age;
 
     public Student(String name, Address address, double gradeAverage) {
         super(name, address);
